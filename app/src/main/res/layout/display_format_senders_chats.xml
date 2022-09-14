@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp"
+    android:layoutDirection="rtl"
+    android:layout_gravity="right"
+    android:paddingLeft="150dp">
+
+    <TextView
+        android:id="@+id/textViewSenderChat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="How are"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:background="@drawable/sender_chats_msg"
+        android:paddingHorizontal="17dp"
+        />
+
+
+</LinearLayout>

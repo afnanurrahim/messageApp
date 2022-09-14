@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogIn">
+
+    <ImageView
+        android:id="@+id/LogoimageView"
+        android:layout_width="215dp"
+        android:layout_height="202dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="60dp"
+        app:srcCompat="@drawable/chatapplogo"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <EditText
+        android:id="@+id/EmailIdEditText"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/LogoimageView"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edit_text_wrap"
+        android:hint="Email id"
+        android:paddingLeft="10dp"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/PasswordEditText"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/EmailIdEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="20dp"
+        android:background="@drawable/edit_text_wrap"
+        android:hint="Passsword"
+        android:paddingLeft="10dp"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/LogInButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/PasswordEditText"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/blue"
+        android:textSize="20dp"
+        android:text="Log in"/>
+
+    <TextView
+        android:id="@+id/orTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LogInButton"
+        android:layout_centerHorizontal="true"
+        android:text="------or------"
+        android:textSize="20dp"/>
+    <Button
+        android:id="@+id/SignupButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/orTextView"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/blue"
+        android:textSize="20dp"
+        android:text="Sign up"/>
+
+
+
+</RelativeLayout>
