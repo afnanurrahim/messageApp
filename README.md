@@ -12,7 +12,7 @@ This is a chatting application that allows all the users to interact with each o
 ### Android activities in the project
 
 1. Login page - It is the first page in the app where current users can login
-2. ![Login page](https://github.com/afnanurrahim/messageApp/blob/d0e38042d3fcdedd94ff35c23f4e2c6217a697a6/screenshots/Screenshot_20220916_212316.png =50x50)
+2. ![Login page](https://github.com/afnanurrahim/messageApp/blob/d0e38042d3fcdedd94ff35c23f4e2c6217a697a6/screenshots/Screenshot_20220916_212316.png=50x50)
 3. SignUp page - For new users
 4. Profile pic - Add profile pic if you want
 5. New Messages - All the chatting partners are shown here
